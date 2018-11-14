@@ -1,0 +1,529 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>90/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 14 18:02:53 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>250 seconds (250587 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='regression.livingfoodz.BackfromStoryDetail()'><b>BackfromStoryDetail</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>5</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.ChefProfile()'><b>ChefProfile</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>4</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.ChefProfileFBComments()'><b>ChefProfileFBComments</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.ChefProfileRecipeByChef()'><b>ChefProfileRecipeByChef</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.HowToSubLinkKitchenHacks()'><b>HowToSubLinkKitchenHacks</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>3</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.HowToSubLinkTipsTricks()'><b>HowToSubLinkTipsTricks</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>3</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.PeopleSubLinkChefandHost()'><b>PeopleSubLinkChefandHost</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>6</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.PeopleSubLinkScoop()'><b>PeopleSubLinkScoop</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>1</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.StorySublinkDishUp()'><b>StorySublinkDishUp</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>4</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.StorySublinkEntertainment()'><b>StorySublinkEntertainment</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.StorySublinkFood()'><b>StorySublinkFood</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.StorySublinkHealth()'><b>StorySublinkHealth</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>4</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.StorySublinkPlace()'><b>StorySublinkPlace</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.StorySublinkPopCulture()'><b>StorySublinkPopCulture</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>10</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.aboutLF()'><b>aboutLF</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>3</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.accessWebsite()'><b>accessWebsite</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>7</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.chefProfileOurChefs()'><b>chefProfileOurChefs</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.clickprofilelink()'><b>clickprofilelink</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.crazyEgg()'><b>crazyEgg</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.faceBookCode()'><b>faceBookCode</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.facebookLogin()'><b>facebookLogin</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>16</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.homeAllShows()'><b>homeAllShows</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.homeCarousel()'><b>homeCarousel</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>4</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.homeFreshPics()'><b>homeFreshPics</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>3</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.homeOurChefs()'><b>homeOurChefs</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.homeRecipeOftheDay()'><b>homeRecipeOftheDay</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.homeTrendingOnLf()'><b>homeTrendingOnLf</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.howTo()'><b>howTo</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>1</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.howToCarousel()'><b>howToCarousel</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>3</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.howToKitchenHacks()'><b>howToKitchenHacks</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.howToTipsandTricks()'><b>howToTipsandTricks</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.peopleCarousel()'><b>peopleCarousel</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.peopleChefHost()'><b>peopleChefHost</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.peopleLanding()'><b>peopleLanding</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>3</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.peopleScoops()'><b>peopleScoops</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>1</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reTargetting()'><b>reTargetting</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.recipeCarousel()'><b>recipeCarousel</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>6</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.recipeCusineType()'><b>recipeCusineType</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.recipeDetail()'><b>recipeDetail</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>7</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.recipeDetailComments()'><b>recipeDetailComments</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.recipeLanding1()'><b>recipeLanding1</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>4</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.recipeOurChef()'><b>recipeOurChef</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.recipeRecipeOftheDay()'><b>recipeRecipeOftheDay</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.recipeSublinksRecipeOfTheDay()'><b>recipeSublinksRecipeOfTheDay</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>7</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.recirecipeSublinksCusineType()'><b>recirecipeSublinksCusineType</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.recirecipeSublinksOurChef()'><b>recirecipeSublinksOurChef</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewBangalore()'><b>reviewBangalore</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewCarousel()'><b>reviewCarousel</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>4</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewDelhi()'><b>reviewDelhi</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewLanding()'><b>reviewLanding</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewMumbai()'><b>reviewMumbai</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewOther()'><b>reviewOther</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewPune()'><b>reviewPune</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewSubLinkBangalore()'><b>reviewSubLinkBangalore</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewSubLinkDelhi()'><b>reviewSubLinkDelhi</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewSubLinkMumbai()'><b>reviewSubLinkMumbai</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>3</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewSubLinkOther()'><b>reviewSubLinkOther</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>5</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.reviewSubLinkPune()'><b>reviewSubLinkPune</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.search()'><b>search</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>8</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showCarousel()'><b>showCarousel</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>3</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showDetails()'><b>showDetails</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>7</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showLanding1()'><b>showLanding1</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>8</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showOnLf()'><b>showOnLf</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showOurHosts()'><b>showOurHosts</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showSubLinkChefHost()'><b>showSubLinkChefHost</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showSubLinkShowOnLF()'><b>showSubLinkShowOnLF</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>4</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showTrendingOnLF()'><b>showTrendingOnLF</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showdetailAboutHost()'><b>showdetailAboutHost</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showdetailArticleAboutShow()'><b>showdetailArticleAboutShow</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showdetailComments()'><b>showdetailComments</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showdetailDescription()'><b>showdetailDescription</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showdetailOurHosts()'><b>showdetailOurHosts</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showdetailTitle()'><b>showdetailTitle</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.showdetail_All_Shows()'><b>showdetail_All_Shows</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.stayConnectedFacebook()'><b>stayConnectedFacebook</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>11</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.stayConnectedInsta()'><b>stayConnectedInsta</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>9</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.stayConnectedTwitter()'><b>stayConnectedTwitter</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyCarousel()'><b>storyCarousel</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>7</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyDetail()'><b>storyDetail</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>2</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyDetailRelatedStories()'><b>storyDetailRelatedStories</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>1</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyDetailTitle()'><b>storyDetailTitle</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>1</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyDetailsComments()'><b>storyDetailsComments</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyDishup()'><b>storyDishup</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyEntertainment()'><b>storyEntertainment</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyFoodplusplus()'><b>storyFoodplusplus</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyHealth()'><b>storyHealth</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyLanding()'><b>storyLanding</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>5</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyPlaces()'><b>storyPlaces</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.storyPopCulture()'><b>storyPopCulture</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>0</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+<tr>
+<td title='regression.livingfoodz.termsOfUse()'><b>termsOfUse</b><br>Test class: regression.livingfoodz</td>
+<td></td>
+<td>3</td>
+<td>regression.livingfoodz@458ad742</td></tr>
+</table><p>
+</body>
+</html>

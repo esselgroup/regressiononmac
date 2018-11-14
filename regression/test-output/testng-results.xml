@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="90" passed="90">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="250587" started-at="2018-11-14T12:32:53Z" finished-at="2018-11-14T12:37:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="250587" started-at="2018-11-14T12:32:53Z" finished-at="2018-11-14T12:37:04Z">
+      <class name="regression.livingfoodz">
+        <test-method status="PASS" signature="setup()[pri:0, instance:regression.livingfoodz@458ad742]" name="setup" is-config="true" duration-ms="5614" started-at="2018-11-14T18:02:53Z" finished-at="2018-11-14T18:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="accessWebsite()[pri:0, instance:regression.livingfoodz@458ad742]" name="accessWebsite" duration-ms="7436" started-at="2018-11-14T18:02:59Z" finished-at="2018-11-14T18:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessWebsite -->
+        <test-method status="PASS" signature="facebookLogin()[pri:0, instance:regression.livingfoodz@458ad742]" name="facebookLogin" duration-ms="16948" started-at="2018-11-14T18:03:06Z" finished-at="2018-11-14T18:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLogin -->
+        <test-method status="PASS" signature="clickprofilelink()[pri:0, instance:regression.livingfoodz@458ad742]" name="clickprofilelink" duration-ms="2865" started-at="2018-11-14T18:03:23Z" finished-at="2018-11-14T18:03:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickprofilelink -->
+        <test-method status="PASS" signature="homeFreshPics()[pri:0, instance:regression.livingfoodz@458ad742]" name="homeFreshPics" duration-ms="3189" started-at="2018-11-14T18:03:26Z" finished-at="2018-11-14T18:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeFreshPics -->
+        <test-method status="PASS" signature="homeRecipeOftheDay()[pri:0, instance:regression.livingfoodz@458ad742]" name="homeRecipeOftheDay" duration-ms="388" started-at="2018-11-14T18:03:29Z" finished-at="2018-11-14T18:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeRecipeOftheDay -->
+        <test-method status="PASS" signature="homeOurChefs()[pri:0, instance:regression.livingfoodz@458ad742]" name="homeOurChefs" duration-ms="52" started-at="2018-11-14T18:03:30Z" finished-at="2018-11-14T18:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeOurChefs -->
+        <test-method status="PASS" signature="homeTrendingOnLf()[pri:0, instance:regression.livingfoodz@458ad742]" name="homeTrendingOnLf" duration-ms="2048" started-at="2018-11-14T18:03:30Z" finished-at="2018-11-14T18:03:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTrendingOnLf -->
+        <test-method status="PASS" signature="homeAllShows()[pri:0, instance:regression.livingfoodz@458ad742]" name="homeAllShows" duration-ms="62" started-at="2018-11-14T18:03:32Z" finished-at="2018-11-14T18:03:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeAllShows -->
+        <test-method status="PASS" signature="recipeLanding1()[pri:0, instance:regression.livingfoodz@458ad742]" name="recipeLanding1" duration-ms="4615" started-at="2018-11-14T18:03:32Z" finished-at="2018-11-14T18:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeLanding1 -->
+        <test-method status="PASS" signature="recipeRecipeOftheDay()[pri:0, instance:regression.livingfoodz@458ad742]" name="recipeRecipeOftheDay" duration-ms="135" started-at="2018-11-14T18:03:37Z" finished-at="2018-11-14T18:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeRecipeOftheDay -->
+        <test-method status="PASS" signature="recipeOurChef()[pri:0, instance:regression.livingfoodz@458ad742]" name="recipeOurChef" duration-ms="67" started-at="2018-11-14T18:03:37Z" finished-at="2018-11-14T18:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeOurChef -->
+        <test-method status="PASS" signature="recipeCusineType()[pri:0, instance:regression.livingfoodz@458ad742]" name="recipeCusineType" duration-ms="198" started-at="2018-11-14T18:03:37Z" finished-at="2018-11-14T18:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeCusineType -->
+        <test-method status="PASS" signature="recipeDetail()[pri:0, instance:regression.livingfoodz@458ad742]" name="recipeDetail" duration-ms="7299" started-at="2018-11-14T18:03:37Z" finished-at="2018-11-14T18:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeDetail -->
+        <test-method status="PASS" signature="recipeDetailComments()[pri:0, instance:regression.livingfoodz@458ad742]" name="recipeDetailComments" duration-ms="36" started-at="2018-11-14T18:03:44Z" finished-at="2018-11-14T18:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeDetailComments -->
+        <test-method status="PASS" signature="showLanding1()[pri:0, instance:regression.livingfoodz@458ad742]" name="showLanding1" duration-ms="8224" started-at="2018-11-14T18:03:44Z" finished-at="2018-11-14T18:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showLanding1 -->
+        <test-method status="PASS" signature="showOnLf()[pri:0, instance:regression.livingfoodz@458ad742]" name="showOnLf" duration-ms="40" started-at="2018-11-14T18:03:53Z" finished-at="2018-11-14T18:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showOnLf -->
+        <test-method status="PASS" signature="showOurHosts()[pri:0, instance:regression.livingfoodz@458ad742]" name="showOurHosts" duration-ms="47" started-at="2018-11-14T18:03:53Z" finished-at="2018-11-14T18:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showOurHosts -->
+        <test-method status="PASS" signature="showTrendingOnLF()[pri:0, instance:regression.livingfoodz@458ad742]" name="showTrendingOnLF" duration-ms="59" started-at="2018-11-14T18:03:53Z" finished-at="2018-11-14T18:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showTrendingOnLF -->
+        <test-method status="PASS" signature="peopleLanding()[pri:0, instance:regression.livingfoodz@458ad742]" name="peopleLanding" duration-ms="3237" started-at="2018-11-14T18:03:53Z" finished-at="2018-11-14T18:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleLanding -->
+        <test-method status="PASS" signature="peopleChefHost()[pri:0, instance:regression.livingfoodz@458ad742]" name="peopleChefHost" duration-ms="132" started-at="2018-11-14T18:03:56Z" finished-at="2018-11-14T18:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleChefHost -->
+        <test-method status="PASS" signature="peopleScoops()[pri:0, instance:regression.livingfoodz@458ad742]" name="peopleScoops" duration-ms="1048" started-at="2018-11-14T18:03:56Z" finished-at="2018-11-14T18:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleScoops -->
+        <test-method status="PASS" signature="ChefProfile()[pri:0, instance:regression.livingfoodz@458ad742]" name="ChefProfile" duration-ms="4648" started-at="2018-11-14T18:03:57Z" finished-at="2018-11-14T18:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChefProfile -->
+        <test-method status="PASS" signature="ChefProfileRecipeByChef()[pri:0, instance:regression.livingfoodz@458ad742]" name="ChefProfileRecipeByChef" duration-ms="36" started-at="2018-11-14T18:04:02Z" finished-at="2018-11-14T18:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChefProfileRecipeByChef -->
+        <test-method status="PASS" signature="ChefProfileFBComments()[pri:0, instance:regression.livingfoodz@458ad742]" name="ChefProfileFBComments" duration-ms="10" started-at="2018-11-14T18:04:02Z" finished-at="2018-11-14T18:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChefProfileFBComments -->
+        <test-method status="PASS" signature="chefProfileOurChefs()[pri:0, instance:regression.livingfoodz@458ad742]" name="chefProfileOurChefs" duration-ms="45" started-at="2018-11-14T18:04:02Z" finished-at="2018-11-14T18:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chefProfileOurChefs -->
+        <test-method status="PASS" signature="storyLanding()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyLanding" duration-ms="5729" started-at="2018-11-14T18:04:02Z" finished-at="2018-11-14T18:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyLanding -->
+        <test-method status="PASS" signature="storyDishup()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyDishup" duration-ms="48" started-at="2018-11-14T18:04:08Z" finished-at="2018-11-14T18:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyDishup -->
+        <test-method status="PASS" signature="storyPopCulture()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyPopCulture" duration-ms="88" started-at="2018-11-14T18:04:08Z" finished-at="2018-11-14T18:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyPopCulture -->
+        <test-method status="PASS" signature="storyPlaces()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyPlaces" duration-ms="609" started-at="2018-11-14T18:04:08Z" finished-at="2018-11-14T18:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyPlaces -->
+        <test-method status="PASS" signature="storyEntertainment()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyEntertainment" duration-ms="389" started-at="2018-11-14T18:04:08Z" finished-at="2018-11-14T18:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyEntertainment -->
+        <test-method status="PASS" signature="storyFoodplusplus()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyFoodplusplus" duration-ms="399" started-at="2018-11-14T18:04:09Z" finished-at="2018-11-14T18:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyFoodplusplus -->
+        <test-method status="PASS" signature="storyHealth()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyHealth" duration-ms="731" started-at="2018-11-14T18:04:09Z" finished-at="2018-11-14T18:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyHealth -->
+        <test-method status="PASS" signature="reviewLanding()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewLanding" duration-ms="2784" started-at="2018-11-14T18:04:10Z" finished-at="2018-11-14T18:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewLanding -->
+        <test-method status="PASS" signature="reviewMumbai()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewMumbai" duration-ms="481" started-at="2018-11-14T18:04:13Z" finished-at="2018-11-14T18:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewMumbai -->
+        <test-method status="PASS" signature="reviewDelhi()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewDelhi" duration-ms="295" started-at="2018-11-14T18:04:13Z" finished-at="2018-11-14T18:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewDelhi -->
+        <test-method status="PASS" signature="reviewBangalore()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewBangalore" duration-ms="308" started-at="2018-11-14T18:04:13Z" finished-at="2018-11-14T18:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewBangalore -->
+        <test-method status="PASS" signature="reviewPune()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewPune" duration-ms="363" started-at="2018-11-14T18:04:14Z" finished-at="2018-11-14T18:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewPune -->
+        <test-method status="PASS" signature="reviewOther()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewOther" duration-ms="312" started-at="2018-11-14T18:04:14Z" finished-at="2018-11-14T18:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewOther -->
+        <test-method status="PASS" signature="howTo()[pri:0, instance:regression.livingfoodz@458ad742]" name="howTo" duration-ms="1715" started-at="2018-11-14T18:04:14Z" finished-at="2018-11-14T18:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- howTo -->
+        <test-method status="PASS" signature="howToKitchenHacks()[pri:0, instance:regression.livingfoodz@458ad742]" name="howToKitchenHacks" duration-ms="519" started-at="2018-11-14T18:04:16Z" finished-at="2018-11-14T18:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- howToKitchenHacks -->
+        <test-method status="PASS" signature="howToTipsandTricks()[pri:0, instance:regression.livingfoodz@458ad742]" name="howToTipsandTricks" duration-ms="86" started-at="2018-11-14T18:04:17Z" finished-at="2018-11-14T18:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- howToTipsandTricks -->
+        <test-method status="PASS" signature="showDetails()[pri:0, instance:regression.livingfoodz@458ad742]" name="showDetails" duration-ms="7001" started-at="2018-11-14T18:04:17Z" finished-at="2018-11-14T18:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showDetails -->
+        <test-method status="PASS" signature="showdetailTitle()[pri:0, instance:regression.livingfoodz@458ad742]" name="showdetailTitle" duration-ms="74" started-at="2018-11-14T18:04:24Z" finished-at="2018-11-14T18:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailTitle -->
+        <test-method status="PASS" signature="showdetailDescription()[pri:0, instance:regression.livingfoodz@458ad742]" name="showdetailDescription" duration-ms="83" started-at="2018-11-14T18:04:24Z" finished-at="2018-11-14T18:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailDescription -->
+        <test-method status="PASS" signature="showdetailComments()[pri:0, instance:regression.livingfoodz@458ad742]" name="showdetailComments" duration-ms="10" started-at="2018-11-14T18:04:24Z" finished-at="2018-11-14T18:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailComments -->
+        <test-method status="PASS" signature="showdetailAboutHost()[pri:0, instance:regression.livingfoodz@458ad742]" name="showdetailAboutHost" duration-ms="54" started-at="2018-11-14T18:04:24Z" finished-at="2018-11-14T18:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailAboutHost -->
+        <test-method status="PASS" signature="showdetailArticleAboutShow()[pri:0, instance:regression.livingfoodz@458ad742]" name="showdetailArticleAboutShow" duration-ms="58" started-at="2018-11-14T18:04:24Z" finished-at="2018-11-14T18:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailArticleAboutShow -->
+        <test-method status="PASS" signature="showdetailOurHosts()[pri:0, instance:regression.livingfoodz@458ad742]" name="showdetailOurHosts" duration-ms="2046" started-at="2018-11-14T18:04:24Z" finished-at="2018-11-14T18:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetailOurHosts -->
+        <test-method status="PASS" signature="showdetail_All_Shows()[pri:0, instance:regression.livingfoodz@458ad742]" name="showdetail_All_Shows" duration-ms="60" started-at="2018-11-14T18:04:26Z" finished-at="2018-11-14T18:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showdetail_All_Shows -->
+        <test-method status="PASS" signature="storyDetail()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyDetail" duration-ms="2600" started-at="2018-11-14T18:04:26Z" finished-at="2018-11-14T18:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyDetail -->
+        <test-method status="PASS" signature="storyDetailTitle()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyDetailTitle" duration-ms="1068" started-at="2018-11-14T18:04:29Z" finished-at="2018-11-14T18:04:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyDetailTitle -->
+        <test-method status="PASS" signature="storyDetailRelatedStories()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyDetailRelatedStories" duration-ms="1037" started-at="2018-11-14T18:04:30Z" finished-at="2018-11-14T18:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyDetailRelatedStories -->
+        <test-method status="PASS" signature="storyDetailsComments()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyDetailsComments" duration-ms="11" started-at="2018-11-14T18:04:31Z" finished-at="2018-11-14T18:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyDetailsComments -->
+        <test-method status="PASS" signature="search()[pri:0, instance:regression.livingfoodz@458ad742]" name="search" duration-ms="8711" started-at="2018-11-14T18:04:31Z" finished-at="2018-11-14T18:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="BackfromStoryDetail()[pri:0, instance:regression.livingfoodz@458ad742]" name="BackfromStoryDetail" duration-ms="5817" started-at="2018-11-14T18:04:40Z" finished-at="2018-11-14T18:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackfromStoryDetail -->
+        <test-method status="PASS" signature="homeCarousel()[pri:0, instance:regression.livingfoodz@458ad742]" name="homeCarousel" duration-ms="4690" started-at="2018-11-14T18:04:45Z" finished-at="2018-11-14T18:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeCarousel -->
+        <test-method status="PASS" signature="recipeCarousel()[pri:0, instance:regression.livingfoodz@458ad742]" name="recipeCarousel" duration-ms="6216" started-at="2018-11-14T18:04:50Z" finished-at="2018-11-14T18:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeCarousel -->
+        <test-method status="PASS" signature="showCarousel()[pri:0, instance:regression.livingfoodz@458ad742]" name="showCarousel" duration-ms="3306" started-at="2018-11-14T18:04:56Z" finished-at="2018-11-14T18:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showCarousel -->
+        <test-method status="PASS" signature="peopleCarousel()[pri:0, instance:regression.livingfoodz@458ad742]" name="peopleCarousel" duration-ms="2795" started-at="2018-11-14T18:05:00Z" finished-at="2018-11-14T18:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- peopleCarousel -->
+        <test-method status="PASS" signature="storyCarousel()[pri:0, instance:regression.livingfoodz@458ad742]" name="storyCarousel" duration-ms="7361" started-at="2018-11-14T18:05:02Z" finished-at="2018-11-14T18:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storyCarousel -->
+        <test-method status="PASS" signature="reviewCarousel()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewCarousel" duration-ms="4026" started-at="2018-11-14T18:05:10Z" finished-at="2018-11-14T18:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewCarousel -->
+        <test-method status="PASS" signature="howToCarousel()[pri:0, instance:regression.livingfoodz@458ad742]" name="howToCarousel" duration-ms="3311" started-at="2018-11-14T18:05:14Z" finished-at="2018-11-14T18:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- howToCarousel -->
+        <test-method status="PASS" signature="recipeSublinksRecipeOfTheDay()[pri:0, instance:regression.livingfoodz@458ad742]" name="recipeSublinksRecipeOfTheDay" duration-ms="7944" started-at="2018-11-14T18:05:17Z" finished-at="2018-11-14T18:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recipeSublinksRecipeOfTheDay -->
+        <test-method status="PASS" signature="recirecipeSublinksCusineType()[pri:0, instance:regression.livingfoodz@458ad742]" name="recirecipeSublinksCusineType" duration-ms="2497" started-at="2018-11-14T18:05:25Z" finished-at="2018-11-14T18:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recirecipeSublinksCusineType -->
+        <test-method status="PASS" signature="recirecipeSublinksOurChef()[pri:0, instance:regression.livingfoodz@458ad742]" name="recirecipeSublinksOurChef" duration-ms="2106" started-at="2018-11-14T18:05:28Z" finished-at="2018-11-14T18:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recirecipeSublinksOurChef -->
+        <test-method status="PASS" signature="showSubLinkShowOnLF()[pri:0, instance:regression.livingfoodz@458ad742]" name="showSubLinkShowOnLF" duration-ms="4115" started-at="2018-11-14T18:05:30Z" finished-at="2018-11-14T18:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showSubLinkShowOnLF -->
+        <test-method status="PASS" signature="showSubLinkChefHost()[pri:0, instance:regression.livingfoodz@458ad742]" name="showSubLinkChefHost" duration-ms="2032" started-at="2018-11-14T18:05:34Z" finished-at="2018-11-14T18:05:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showSubLinkChefHost -->
+        <test-method status="PASS" signature="PeopleSubLinkChefandHost()[pri:0, instance:regression.livingfoodz@458ad742]" name="PeopleSubLinkChefandHost" duration-ms="6985" started-at="2018-11-14T18:05:36Z" finished-at="2018-11-14T18:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PeopleSubLinkChefandHost -->
+        <test-method status="PASS" signature="PeopleSubLinkScoop()[pri:0, instance:regression.livingfoodz@458ad742]" name="PeopleSubLinkScoop" duration-ms="1988" started-at="2018-11-14T18:05:43Z" finished-at="2018-11-14T18:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PeopleSubLinkScoop -->
+        <test-method status="PASS" signature="StorySublinkDishUp()[pri:0, instance:regression.livingfoodz@458ad742]" name="StorySublinkDishUp" duration-ms="4501" started-at="2018-11-14T18:05:45Z" finished-at="2018-11-14T18:05:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkDishUp -->
+        <test-method status="PASS" signature="StorySublinkPopCulture()[pri:0, instance:regression.livingfoodz@458ad742]" name="StorySublinkPopCulture" duration-ms="10129" started-at="2018-11-14T18:05:49Z" finished-at="2018-11-14T18:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkPopCulture -->
+        <test-method status="PASS" signature="StorySublinkPlace()[pri:0, instance:regression.livingfoodz@458ad742]" name="StorySublinkPlace" duration-ms="2181" started-at="2018-11-14T18:05:59Z" finished-at="2018-11-14T18:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkPlace -->
+        <test-method status="PASS" signature="StorySublinkEntertainment()[pri:0, instance:regression.livingfoodz@458ad742]" name="StorySublinkEntertainment" duration-ms="2082" started-at="2018-11-14T18:06:02Z" finished-at="2018-11-14T18:06:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkEntertainment -->
+        <test-method status="PASS" signature="StorySublinkFood()[pri:0, instance:regression.livingfoodz@458ad742]" name="StorySublinkFood" duration-ms="2403" started-at="2018-11-14T18:06:04Z" finished-at="2018-11-14T18:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkFood -->
+        <test-method status="PASS" signature="StorySublinkHealth()[pri:0, instance:regression.livingfoodz@458ad742]" name="StorySublinkHealth" duration-ms="4523" started-at="2018-11-14T18:06:06Z" finished-at="2018-11-14T18:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StorySublinkHealth -->
+        <test-method status="PASS" signature="reviewSubLinkMumbai()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewSubLinkMumbai" duration-ms="3553" started-at="2018-11-14T18:06:11Z" finished-at="2018-11-14T18:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewSubLinkMumbai -->
+        <test-method status="PASS" signature="reviewSubLinkDelhi()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewSubLinkDelhi" duration-ms="2591" started-at="2018-11-14T18:06:14Z" finished-at="2018-11-14T18:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewSubLinkDelhi -->
+        <test-method status="PASS" signature="reviewSubLinkBangalore()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewSubLinkBangalore" duration-ms="2031" started-at="2018-11-14T18:06:17Z" finished-at="2018-11-14T18:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewSubLinkBangalore -->
+        <test-method status="PASS" signature="reviewSubLinkPune()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewSubLinkPune" duration-ms="2840" started-at="2018-11-14T18:06:19Z" finished-at="2018-11-14T18:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewSubLinkPune -->
+        <test-method status="PASS" signature="reviewSubLinkOther()[pri:0, instance:regression.livingfoodz@458ad742]" name="reviewSubLinkOther" duration-ms="5943" started-at="2018-11-14T18:06:22Z" finished-at="2018-11-14T18:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewSubLinkOther -->
+        <test-method status="PASS" signature="HowToSubLinkKitchenHacks()[pri:0, instance:regression.livingfoodz@458ad742]" name="HowToSubLinkKitchenHacks" duration-ms="3103" started-at="2018-11-14T18:06:28Z" finished-at="2018-11-14T18:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HowToSubLinkKitchenHacks -->
+        <test-method status="PASS" signature="HowToSubLinkTipsTricks()[pri:0, instance:regression.livingfoodz@458ad742]" name="HowToSubLinkTipsTricks" duration-ms="3089" started-at="2018-11-14T18:06:31Z" finished-at="2018-11-14T18:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HowToSubLinkTipsTricks -->
+        <test-method status="PASS" signature="aboutLF()[pri:0, instance:regression.livingfoodz@458ad742]" name="aboutLF" duration-ms="3030" started-at="2018-11-14T18:06:34Z" finished-at="2018-11-14T18:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutLF -->
+        <test-method status="PASS" signature="termsOfUse()[pri:0, instance:regression.livingfoodz@458ad742]" name="termsOfUse" duration-ms="3832" started-at="2018-11-14T18:06:37Z" finished-at="2018-11-14T18:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termsOfUse -->
+        <test-method status="PASS" signature="stayConnectedTwitter()[pri:0, instance:regression.livingfoodz@458ad742]" name="stayConnectedTwitter" duration-ms="2274" started-at="2018-11-14T18:06:41Z" finished-at="2018-11-14T18:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stayConnectedTwitter -->
+        <test-method status="PASS" signature="stayConnectedInsta()[pri:0, instance:regression.livingfoodz@458ad742]" name="stayConnectedInsta" duration-ms="9261" started-at="2018-11-14T18:06:43Z" finished-at="2018-11-14T18:06:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stayConnectedInsta -->
+        <test-method status="PASS" signature="stayConnectedFacebook()[pri:0, instance:regression.livingfoodz@458ad742]" name="stayConnectedFacebook" duration-ms="11500" started-at="2018-11-14T18:06:52Z" finished-at="2018-11-14T18:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stayConnectedFacebook -->
+        <test-method status="PASS" signature="reTargetting()[pri:0, instance:regression.livingfoodz@458ad742]" name="reTargetting" duration-ms="48" started-at="2018-11-14T18:07:04Z" finished-at="2018-11-14T18:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reTargetting -->
+        <test-method status="PASS" signature="faceBookCode()[pri:0, instance:regression.livingfoodz@458ad742]" name="faceBookCode" duration-ms="43" started-at="2018-11-14T18:07:04Z" finished-at="2018-11-14T18:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBookCode -->
+        <test-method status="PASS" signature="crazyEgg()[pri:0, instance:regression.livingfoodz@458ad742]" name="crazyEgg" duration-ms="86" started-at="2018-11-14T18:07:04Z" finished-at="2018-11-14T18:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crazyEgg -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:regression.livingfoodz@458ad742]" name="teardown" is-config="true" duration-ms="81" started-at="2018-11-14T18:07:04Z" finished-at="2018-11-14T18:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- regression.livingfoodz -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

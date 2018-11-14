@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">90</td><td class="numi">90</td><td class="numi">0</td><td class="numi">0</td><td class="numi">250.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="90">regression.livingfoodz<td><a href="#m1"><b>accessWebsite</b>  </a></td><td class="numi">1</td><td>1542198779491</td><td class="numi">7436</td></tr><tr class="passedodd"><td><a href="#m2"><b>facebookLogin</b>  </a></td><td class="numi">1</td><td>1542198786928</td><td class="numi">16948</td></tr><tr class="passedodd"><td><a href="#m3"><b>clickprofilelink</b>  </a></td><td class="numi">1</td><td>1542198803878</td><td class="numi">2865</td></tr><tr class="passedodd"><td><a href="#m4"><b>homeFreshPics</b>  </a></td><td class="numi">1</td><td>1542198806744</td><td class="numi">3189</td></tr><tr class="passedodd"><td><a href="#m5"><b>homeRecipeOftheDay</b>  </a></td><td class="numi">1</td><td>1542198809934</td><td class="numi">388</td></tr><tr class="passedodd"><td><a href="#m6"><b>homeOurChefs</b>  </a></td><td class="numi">1</td><td>1542198810325</td><td class="numi">52</td></tr><tr class="passedodd"><td><a href="#m7"><b>homeTrendingOnLf</b>  </a></td><td class="numi">1</td><td>1542198810379</td><td class="numi">2048</td></tr><tr class="passedodd"><td><a href="#m8"><b>homeAllShows</b>  </a></td><td class="numi">1</td><td>1542198812428</td><td class="numi">62</td></tr><tr class="passedodd"><td><a href="#m9"><b>recipeLanding1</b>  </a></td><td class="numi">1</td><td>1542198812491</td><td class="numi">4615</td></tr><tr class="passedodd"><td><a href="#m10"><b>recipeRecipeOftheDay</b>  </a></td><td class="numi">1</td><td>1542198817107</td><td class="numi">135</td></tr><tr class="passedodd"><td><a href="#m11"><b>recipeOurChef</b>  </a></td><td class="numi">1</td><td>1542198817243</td><td class="numi">67</td></tr><tr class="passedodd"><td><a href="#m12"><b>recipeCusineType</b>  </a></td><td class="numi">1</td><td>1542198817311</td><td class="numi">198</td></tr><tr class="passedodd"><td><a href="#m13"><b>recipeDetail</b>  </a></td><td class="numi">1</td><td>1542198817510</td><td class="numi">7299</td></tr><tr class="passedodd"><td><a href="#m14"><b>recipeDetailComments</b>  </a></td><td class="numi">1</td><td>1542198824810</td><td class="numi">36</td></tr><tr class="passedodd"><td><a href="#m15"><b>showLanding1</b>  </a></td><td class="numi">1</td><td>1542198824847</td><td class="numi">8224</td></tr><tr class="passedodd"><td><a href="#m16"><b>showOnLf</b>  </a></td><td class="numi">1</td><td>1542198833072</td><td class="numi">40</td></tr><tr class="passedodd"><td><a href="#m17"><b>showOurHosts</b>  </a></td><td class="numi">1</td><td>1542198833113</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m18"><b>showTrendingOnLF</b>  </a></td><td class="numi">1</td><td>1542198833161</td><td class="numi">59</td></tr><tr class="passedodd"><td><a href="#m19"><b>peopleLanding</b>  </a></td><td class="numi">1</td><td>1542198833221</td><td class="numi">3237</td></tr><tr class="passedodd"><td><a href="#m20"><b>peopleChefHost</b>  </a></td><td class="numi">1</td><td>1542198836459</td><td class="numi">132</td></tr><tr class="passedodd"><td><a href="#m21"><b>peopleScoops</b>  </a></td><td class="numi">1</td><td>1542198836592</td><td class="numi">1048</td></tr><tr class="passedodd"><td><a href="#m22"><b>ChefProfile</b>  </a></td><td class="numi">1</td><td>1542198837641</td><td class="numi">4648</td></tr><tr class="passedodd"><td><a href="#m23"><b>ChefProfileRecipeByChef</b>  </a></td><td class="numi">1</td><td>1542198842290</td><td class="numi">36</td></tr><tr class="passedodd"><td><a href="#m24"><b>ChefProfileFBComments</b>  </a></td><td class="numi">1</td><td>1542198842327</td><td class="numi">10</td></tr><tr class="passedodd"><td><a href="#m25"><b>chefProfileOurChefs</b>  </a></td><td class="numi">1</td><td>1542198842338</td><td class="numi">45</td></tr><tr class="passedodd"><td><a href="#m26"><b>storyLanding</b>  </a></td><td class="numi">1</td><td>1542198842383</td><td class="numi">5729</td></tr><tr class="passedodd"><td><a href="#m27"><b>storyDishup</b>  </a></td><td class="numi">1</td><td>1542198848113</td><td class="numi">48</td></tr><tr class="passedodd"><td><a href="#m28"><b>storyPopCulture</b>  </a></td><td class="numi">1</td><td>1542198848161</td><td class="numi">88</td></tr><tr class="passedodd"><td><a href="#m29"><b>storyPlaces</b>  </a></td><td class="numi">1</td><td>1542198848250</td><td class="numi">609</td></tr><tr class="passedodd"><td><a href="#m30"><b>storyEntertainment</b>  </a></td><td class="numi">1</td><td>1542198848859</td><td class="numi">389</td></tr><tr class="passedodd"><td><a href="#m31"><b>storyFoodplusplus</b>  </a></td><td class="numi">1</td><td>1542198849249</td><td class="numi">399</td></tr><tr class="passedodd"><td><a href="#m32"><b>storyHealth</b>  </a></td><td class="numi">1</td><td>1542198849649</td><td class="numi">731</td></tr><tr class="passedodd"><td><a href="#m33"><b>reviewLanding</b>  </a></td><td class="numi">1</td><td>1542198850380</td><td class="numi">2784</td></tr><tr class="passedodd"><td><a href="#m34"><b>reviewMumbai</b>  </a></td><td class="numi">1</td><td>1542198853165</td><td class="numi">481</td></tr><tr class="passedodd"><td><a href="#m35"><b>reviewDelhi</b>  </a></td><td class="numi">1</td><td>1542198853646</td><td class="numi">295</td></tr><tr class="passedodd"><td><a href="#m36"><b>reviewBangalore</b>  </a></td><td class="numi">1</td><td>1542198853942</td><td class="numi">308</td></tr><tr class="passedodd"><td><a href="#m37"><b>reviewPune</b>  </a></td><td class="numi">1</td><td>1542198854250</td><td class="numi">363</td></tr><tr class="passedodd"><td><a href="#m38"><b>reviewOther</b>  </a></td><td class="numi">1</td><td>1542198854613</td><td class="numi">312</td></tr><tr class="passedodd"><td><a href="#m39"><b>howTo</b>  </a></td><td class="numi">1</td><td>1542198854926</td><td class="numi">1715</td></tr><tr class="passedodd"><td><a href="#m40"><b>howToKitchenHacks</b>  </a></td><td class="numi">1</td><td>1542198856644</td><td class="numi">519</td></tr><tr class="passedodd"><td><a href="#m41"><b>howToTipsandTricks</b>  </a></td><td class="numi">1</td><td>1542198857164</td><td class="numi">86</td></tr><tr class="passedodd"><td><a href="#m42"><b>showDetails</b>  </a></td><td class="numi">1</td><td>1542198857251</td><td class="numi">7001</td></tr><tr class="passedodd"><td><a href="#m43"><b>showdetailTitle</b>  </a></td><td class="numi">1</td><td>1542198864254</td><td class="numi">74</td></tr><tr class="passedodd"><td><a href="#m44"><b>showdetailDescription</b>  </a></td><td class="numi">1</td><td>1542198864329</td><td class="numi">83</td></tr><tr class="passedodd"><td><a href="#m45"><b>showdetailComments</b>  </a></td><td class="numi">1</td><td>1542198864413</td><td class="numi">10</td></tr><tr class="passedodd"><td><a href="#m46"><b>showdetailAboutHost</b>  </a></td><td class="numi">1</td><td>1542198864424</td><td class="numi">54</td></tr><tr class="passedodd"><td><a href="#m47"><b>showdetailArticleAboutShow</b>  </a></td><td class="numi">1</td><td>1542198864479</td><td class="numi">58</td></tr><tr class="passedodd"><td><a href="#m48"><b>showdetailOurHosts</b>  </a></td><td class="numi">1</td><td>1542198864539</td><td class="numi">2046</td></tr><tr class="passedodd"><td><a href="#m49"><b>showdetail_All_Shows</b>  </a></td><td class="numi">1</td><td>1542198866586</td><td class="numi">60</td></tr><tr class="passedodd"><td><a href="#m50"><b>storyDetail</b>  </a></td><td class="numi">1</td><td>1542198866647</td><td class="numi">2600</td></tr><tr class="passedodd"><td><a href="#m51"><b>storyDetailTitle</b>  </a></td><td class="numi">1</td><td>1542198869248</td><td class="numi">1068</td></tr><tr class="passedodd"><td><a href="#m52"><b>storyDetailRelatedStories</b>  </a></td><td class="numi">1</td><td>1542198870317</td><td class="numi">1037</td></tr><tr class="passedodd"><td><a href="#m53"><b>storyDetailsComments</b>  </a></td><td class="numi">1</td><td>1542198871355</td><td class="numi">11</td></tr><tr class="passedodd"><td><a href="#m54"><b>search</b>  </a></td><td class="numi">1</td><td>1542198871367</td><td class="numi">8711</td></tr><tr class="passedodd"><td><a href="#m55"><b>BackfromStoryDetail</b>  </a></td><td class="numi">1</td><td>1542198880079</td><td class="numi">5817</td></tr><tr class="passedodd"><td><a href="#m56"><b>homeCarousel</b>  </a></td><td class="numi">1</td><td>1542198885897</td><td class="numi">4690</td></tr><tr class="passedodd"><td><a href="#m57"><b>recipeCarousel</b>  </a></td><td class="numi">1</td><td>1542198890588</td><td class="numi">6216</td></tr><tr class="passedodd"><td><a href="#m58"><b>showCarousel</b>  </a></td><td class="numi">1</td><td>1542198896805</td><td class="numi">3306</td></tr><tr class="passedodd"><td><a href="#m59"><b>peopleCarousel</b>  </a></td><td class="numi">1</td><td>1542198900111</td><td class="numi">2795</td></tr><tr class="passedodd"><td><a href="#m60"><b>storyCarousel</b>  </a></td><td class="numi">1</td><td>1542198902907</td><td class="numi">7361</td></tr><tr class="passedodd"><td><a href="#m61"><b>reviewCarousel</b>  </a></td><td class="numi">1</td><td>1542198910269</td><td class="numi">4026</td></tr><tr class="passedodd"><td><a href="#m62"><b>howToCarousel</b>  </a></td><td class="numi">1</td><td>1542198914296</td><td class="numi">3311</td></tr><tr class="passedodd"><td><a href="#m63"><b>recipeSublinksRecipeOfTheDay</b>  </a></td><td class="numi">1</td><td>1542198917608</td><td class="numi">7944</td></tr><tr class="passedodd"><td><a href="#m64"><b>recirecipeSublinksCusineType</b>  </a></td><td class="numi">1</td><td>1542198925554</td><td class="numi">2497</td></tr><tr class="passedodd"><td><a href="#m65"><b>recirecipeSublinksOurChef</b>  </a></td><td class="numi">1</td><td>1542198928052</td><td class="numi">2106</td></tr><tr class="passedodd"><td><a href="#m66"><b>showSubLinkShowOnLF</b>  </a></td><td class="numi">1</td><td>1542198930159</td><td class="numi">4115</td></tr><tr class="passedodd"><td><a href="#m67"><b>showSubLinkChefHost</b>  </a></td><td class="numi">1</td><td>1542198934276</td><td class="numi">2032</td></tr><tr class="passedodd"><td><a href="#m68"><b>PeopleSubLinkChefandHost</b>  </a></td><td class="numi">1</td><td>1542198936309</td><td class="numi">6985</td></tr><tr class="passedodd"><td><a href="#m69"><b>PeopleSubLinkScoop</b>  </a></td><td class="numi">1</td><td>1542198943295</td><td class="numi">1988</td></tr><tr class="passedodd"><td><a href="#m70"><b>StorySublinkDishUp</b>  </a></td><td class="numi">1</td><td>1542198945284</td><td class="numi">4501</td></tr><tr class="passedodd"><td><a href="#m71"><b>StorySublinkPopCulture</b>  </a></td><td class="numi">1</td><td>1542198949786</td><td class="numi">10129</td></tr><tr class="passedodd"><td><a href="#m72"><b>StorySublinkPlace</b>  </a></td><td class="numi">1</td><td>1542198959915</td><td class="numi">2181</td></tr><tr class="passedodd"><td><a href="#m73"><b>StorySublinkEntertainment</b>  </a></td><td class="numi">1</td><td>1542198962097</td><td class="numi">2082</td></tr><tr class="passedodd"><td><a href="#m74"><b>StorySublinkFood</b>  </a></td><td class="numi">1</td><td>1542198964181</td><td class="numi">2403</td></tr><tr class="passedodd"><td><a href="#m75"><b>StorySublinkHealth</b>  </a></td><td class="numi">1</td><td>1542198966585</td><td class="numi">4523</td></tr><tr class="passedodd"><td><a href="#m76"><b>reviewSubLinkMumbai</b>  </a></td><td class="numi">1</td><td>1542198971109</td><td class="numi">3553</td></tr><tr class="passedodd"><td><a href="#m77"><b>reviewSubLinkDelhi</b>  </a></td><td class="numi">1</td><td>1542198974663</td><td class="numi">2591</td></tr><tr class="passedodd"><td><a href="#m78"><b>reviewSubLinkBangalore</b>  </a></td><td class="numi">1</td><td>1542198977255</td><td class="numi">2031</td></tr><tr class="passedodd"><td><a href="#m79"><b>reviewSubLinkPune</b>  </a></td><td class="numi">1</td><td>1542198979287</td><td class="numi">2840</td></tr><tr class="passedodd"><td><a href="#m80"><b>reviewSubLinkOther</b>  </a></td><td class="numi">1</td><td>1542198982128</td><td class="numi">5943</td></tr><tr class="passedodd"><td><a href="#m81"><b>HowToSubLinkKitchenHacks</b>  </a></td><td class="numi">1</td><td>1542198988072</td><td class="numi">3103</td></tr><tr class="passedodd"><td><a href="#m82"><b>HowToSubLinkTipsTricks</b>  </a></td><td class="numi">1</td><td>1542198991176</td><td class="numi">3089</td></tr><tr class="passedodd"><td><a href="#m83"><b>aboutLF</b>  </a></td><td class="numi">1</td><td>1542198994266</td><td class="numi">3030</td></tr><tr class="passedodd"><td><a href="#m84"><b>termsOfUse</b>  </a></td><td class="numi">1</td><td>1542198997297</td><td class="numi">3832</td></tr><tr class="passedodd"><td><a href="#m85"><b>stayConnectedTwitter</b>  </a></td><td class="numi">1</td><td>1542199001130</td><td class="numi">2274</td></tr><tr class="passedodd"><td><a href="#m86"><b>stayConnectedInsta</b>  </a></td><td class="numi">1</td><td>1542199003405</td><td class="numi">9261</td></tr><tr class="passedodd"><td><a href="#m87"><b>stayConnectedFacebook</b>  </a></td><td class="numi">1</td><td>1542199012667</td><td class="numi">11500</td></tr><tr class="passedodd"><td><a href="#m88"><b>reTargetting</b>  </a></td><td class="numi">1</td><td>1542199024168</td><td class="numi">48</td></tr><tr class="passedodd"><td><a href="#m89"><b>faceBookCode</b>  </a></td><td class="numi">1</td><td>1542199024217</td><td class="numi">43</td></tr><tr class="passedodd"><td><a href="#m90"><b>crazyEgg</b>  </a></td><td class="numi">1</td><td>1542199024261</td><td class="numi">86</td></tr>
+</table>
+<h1>Default test</h1>
+<a id="m1"></a><h2>regression.livingfoodz:recipeOurChef</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>regression.livingfoodz:showdetail_All_Shows</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>regression.livingfoodz:storyEntertainment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>regression.livingfoodz:storyHealth</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>regression.livingfoodz:StorySublinkPopCulture</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>regression.livingfoodz:recipeSublinksRecipeOfTheDay</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>regression.livingfoodz:reviewCarousel</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>regression.livingfoodz:StorySublinkHealth</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>regression.livingfoodz:howTo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>regression.livingfoodz:reviewPune</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>regression.livingfoodz:showdetailAboutHost</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>regression.livingfoodz:StorySublinkEntertainment</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>regression.livingfoodz:showdetailTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>regression.livingfoodz:BackfromStoryDetail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>regression.livingfoodz:StorySublinkFood</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>regression.livingfoodz:showOurHosts</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>regression.livingfoodz:recipeLanding1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>regression.livingfoodz:reviewLanding</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>regression.livingfoodz:recirecipeSublinksOurChef</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>regression.livingfoodz:reviewSubLinkBangalore</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>regression.livingfoodz:HowToSubLinkTipsTricks</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>regression.livingfoodz:reviewSubLinkPune</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>regression.livingfoodz:showDetails</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>regression.livingfoodz:storyDetail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>regression.livingfoodz:howToKitchenHacks</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>regression.livingfoodz:StorySublinkDishUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>regression.livingfoodz:ChefProfileFBComments</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>regression.livingfoodz:storyDetailTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m29"></a><h2>regression.livingfoodz:showdetailOurHosts</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m30"></a><h2>regression.livingfoodz:showdetailArticleAboutShow</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m31"></a><h2>regression.livingfoodz:storyLanding</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m32"></a><h2>regression.livingfoodz:storyDetailsComments</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m33"></a><h2>regression.livingfoodz:PeopleSubLinkChefandHost</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m34"></a><h2>regression.livingfoodz:showLanding1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m35"></a><h2>regression.livingfoodz:search</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m36"></a><h2>regression.livingfoodz:homeFreshPics</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m37"></a><h2>regression.livingfoodz:recipeCarousel</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m38"></a><h2>regression.livingfoodz:reviewSubLinkMumbai</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m39"></a><h2>regression.livingfoodz:ChefProfile</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m40"></a><h2>regression.livingfoodz:recirecipeSublinksCusineType</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m41"></a><h2>regression.livingfoodz:reviewBangalore</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m42"></a><h2>regression.livingfoodz:reviewDelhi</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m43"></a><h2>regression.livingfoodz:reviewOther</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m44"></a><h2>regression.livingfoodz:termsOfUse</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m45"></a><h2>regression.livingfoodz:stayConnectedFacebook</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m46"></a><h2>regression.livingfoodz:reTargetting</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m47"></a><h2>regression.livingfoodz:chefProfileOurChefs</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m48"></a><h2>regression.livingfoodz:storyPlaces</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m49"></a><h2>regression.livingfoodz:StorySublinkPlace</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m50"></a><h2>regression.livingfoodz:homeRecipeOftheDay</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m51"></a><h2>regression.livingfoodz:homeTrendingOnLf</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m52"></a><h2>regression.livingfoodz:storyDetailRelatedStories</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m53"></a><h2>regression.livingfoodz:showOnLf</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m54"></a><h2>regression.livingfoodz:crazyEgg</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m55"></a><h2>regression.livingfoodz:showdetailComments</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m56"></a><h2>regression.livingfoodz:recipeCusineType</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m57"></a><h2>regression.livingfoodz:peopleLanding</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m58"></a><h2>regression.livingfoodz:howToTipsandTricks</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m59"></a><h2>regression.livingfoodz:faceBookCode</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m60"></a><h2>regression.livingfoodz:accessWebsite</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m61"></a><h2>regression.livingfoodz:peopleChefHost</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m62"></a><h2>regression.livingfoodz:howToCarousel</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m63"></a><h2>regression.livingfoodz:stayConnectedTwitter</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m64"></a><h2>regression.livingfoodz:showCarousel</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m65"></a><h2>regression.livingfoodz:homeCarousel</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m66"></a><h2>regression.livingfoodz:storyCarousel</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m67"></a><h2>regression.livingfoodz:HowToSubLinkKitchenHacks</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m68"></a><h2>regression.livingfoodz:stayConnectedInsta</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m69"></a><h2>regression.livingfoodz:showTrendingOnLF</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m70"></a><h2>regression.livingfoodz:storyFoodplusplus</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m71"></a><h2>regression.livingfoodz:reviewSubLinkDelhi</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m72"></a><h2>regression.livingfoodz:recipeDetail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m73"></a><h2>regression.livingfoodz:reviewMumbai</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m74"></a><h2>regression.livingfoodz:peopleScoops</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m75"></a><h2>regression.livingfoodz:showdetailDescription</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m76"></a><h2>regression.livingfoodz:facebookLogin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m77"></a><h2>regression.livingfoodz:peopleCarousel</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m78"></a><h2>regression.livingfoodz:recipeDetailComments</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m79"></a><h2>regression.livingfoodz:storyPopCulture</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m80"></a><h2>regression.livingfoodz:homeOurChefs</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m81"></a><h2>regression.livingfoodz:ChefProfileRecipeByChef</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m82"></a><h2>regression.livingfoodz:showSubLinkShowOnLF</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m83"></a><h2>regression.livingfoodz:recipeRecipeOftheDay</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m84"></a><h2>regression.livingfoodz:clickprofilelink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m85"></a><h2>regression.livingfoodz:storyDishup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m86"></a><h2>regression.livingfoodz:PeopleSubLinkScoop</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m87"></a><h2>regression.livingfoodz:showSubLinkChefHost</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m88"></a><h2>regression.livingfoodz:reviewSubLinkOther</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m89"></a><h2>regression.livingfoodz:homeAllShows</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m90"></a><h2>regression.livingfoodz:aboutLF</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

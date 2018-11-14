@@ -1,0 +1,2054 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG new reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">90 methods,   90 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="BackfromStoryDetail">BackfromStoryDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="ChefProfile">ChefProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="ChefProfileFBComments">ChefProfileFBComments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="ChefProfileRecipeByChef">ChefProfileRecipeByChef</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="HowToSubLinkKitchenHacks">HowToSubLinkKitchenHacks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="HowToSubLinkTipsTricks">HowToSubLinkTipsTricks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="PeopleSubLinkChefandHost">PeopleSubLinkChefandHost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="PeopleSubLinkScoop">PeopleSubLinkScoop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="StorySublinkDishUp">StorySublinkDishUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="StorySublinkEntertainment">StorySublinkEntertainment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="StorySublinkFood">StorySublinkFood</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="StorySublinkHealth">StorySublinkHealth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="StorySublinkPlace">StorySublinkPlace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="StorySublinkPopCulture">StorySublinkPopCulture</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="aboutLF">aboutLF</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="accessWebsite">accessWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="chefProfileOurChefs">chefProfileOurChefs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="clickprofilelink">clickprofilelink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="crazyEgg">crazyEgg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="faceBookCode">faceBookCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="facebookLogin">facebookLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="homeAllShows">homeAllShows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="homeCarousel">homeCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="homeFreshPics">homeFreshPics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="homeOurChefs">homeOurChefs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="homeRecipeOftheDay">homeRecipeOftheDay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="homeTrendingOnLf">homeTrendingOnLf</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="howTo">howTo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="howToCarousel">howToCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="howToKitchenHacks">howToKitchenHacks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="howToTipsandTricks">howToTipsandTricks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="peopleCarousel">peopleCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="peopleChefHost">peopleChefHost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="peopleLanding">peopleLanding</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="peopleScoops">peopleScoops</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reTargetting">reTargetting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="recipeCarousel">recipeCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="recipeCusineType">recipeCusineType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="recipeDetail">recipeDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="recipeDetailComments">recipeDetailComments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="recipeLanding1">recipeLanding1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="recipeOurChef">recipeOurChef</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="recipeRecipeOftheDay">recipeRecipeOftheDay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="recipeSublinksRecipeOfTheDay">recipeSublinksRecipeOfTheDay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="recirecipeSublinksCusineType">recirecipeSublinksCusineType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="recirecipeSublinksOurChef">recirecipeSublinksOurChef</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewBangalore">reviewBangalore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewCarousel">reviewCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewDelhi">reviewDelhi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewLanding">reviewLanding</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewMumbai">reviewMumbai</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewOther">reviewOther</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewPune">reviewPune</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewSubLinkBangalore">reviewSubLinkBangalore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewSubLinkDelhi">reviewSubLinkDelhi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewSubLinkMumbai">reviewSubLinkMumbai</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewSubLinkOther">reviewSubLinkOther</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="reviewSubLinkPune">reviewSubLinkPune</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showCarousel">showCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showDetails">showDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showLanding1">showLanding1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showOnLf">showOnLf</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showOurHosts">showOurHosts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showSubLinkChefHost">showSubLinkChefHost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showSubLinkShowOnLF">showSubLinkShowOnLF</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showTrendingOnLF">showTrendingOnLF</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showdetailAboutHost">showdetailAboutHost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showdetailArticleAboutShow">showdetailArticleAboutShow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showdetailComments">showdetailComments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showdetailDescription">showdetailDescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showdetailOurHosts">showdetailOurHosts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showdetailTitle">showdetailTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="showdetail_All_Shows">showdetail_All_Shows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="stayConnectedFacebook">stayConnectedFacebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="stayConnectedInsta">stayConnectedInsta</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="stayConnectedTwitter">stayConnectedTwitter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyCarousel">storyCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyDetail">storyDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyDetailRelatedStories">storyDetailRelatedStories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyDetailTitle">storyDetailTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyDetailsComments">storyDetailsComments</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyDishup">storyDishup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyEntertainment">storyEntertainment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyFoodplusplus">storyFoodplusplus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyHealth">storyHealth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyLanding">storyLanding</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyPlaces">storyPlaces</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="storyPopCulture">storyPopCulture</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="regression.livingfoodz" hash-for-method="termsOfUse">termsOfUse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">regression.livingfoodz</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BackfromStoryDetail">
+                  </a> <!-- BackfromStoryDetail -->
+                  <span class="method-name">BackfromStoryDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChefProfile">
+                  </a> <!-- ChefProfile -->
+                  <span class="method-name">ChefProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChefProfileFBComments">
+                  </a> <!-- ChefProfileFBComments -->
+                  <span class="method-name">ChefProfileFBComments</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChefProfileRecipeByChef">
+                  </a> <!-- ChefProfileRecipeByChef -->
+                  <span class="method-name">ChefProfileRecipeByChef</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HowToSubLinkKitchenHacks">
+                  </a> <!-- HowToSubLinkKitchenHacks -->
+                  <span class="method-name">HowToSubLinkKitchenHacks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HowToSubLinkTipsTricks">
+                  </a> <!-- HowToSubLinkTipsTricks -->
+                  <span class="method-name">HowToSubLinkTipsTricks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PeopleSubLinkChefandHost">
+                  </a> <!-- PeopleSubLinkChefandHost -->
+                  <span class="method-name">PeopleSubLinkChefandHost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PeopleSubLinkScoop">
+                  </a> <!-- PeopleSubLinkScoop -->
+                  <span class="method-name">PeopleSubLinkScoop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StorySublinkDishUp">
+                  </a> <!-- StorySublinkDishUp -->
+                  <span class="method-name">StorySublinkDishUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StorySublinkEntertainment">
+                  </a> <!-- StorySublinkEntertainment -->
+                  <span class="method-name">StorySublinkEntertainment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StorySublinkFood">
+                  </a> <!-- StorySublinkFood -->
+                  <span class="method-name">StorySublinkFood</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StorySublinkHealth">
+                  </a> <!-- StorySublinkHealth -->
+                  <span class="method-name">StorySublinkHealth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StorySublinkPlace">
+                  </a> <!-- StorySublinkPlace -->
+                  <span class="method-name">StorySublinkPlace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StorySublinkPopCulture">
+                  </a> <!-- StorySublinkPopCulture -->
+                  <span class="method-name">StorySublinkPopCulture</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aboutLF">
+                  </a> <!-- aboutLF -->
+                  <span class="method-name">aboutLF</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="accessWebsite">
+                  </a> <!-- accessWebsite -->
+                  <span class="method-name">accessWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="chefProfileOurChefs">
+                  </a> <!-- chefProfileOurChefs -->
+                  <span class="method-name">chefProfileOurChefs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickprofilelink">
+                  </a> <!-- clickprofilelink -->
+                  <span class="method-name">clickprofilelink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="crazyEgg">
+                  </a> <!-- crazyEgg -->
+                  <span class="method-name">crazyEgg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="faceBookCode">
+                  </a> <!-- faceBookCode -->
+                  <span class="method-name">faceBookCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="facebookLogin">
+                  </a> <!-- facebookLogin -->
+                  <span class="method-name">facebookLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeAllShows">
+                  </a> <!-- homeAllShows -->
+                  <span class="method-name">homeAllShows</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeCarousel">
+                  </a> <!-- homeCarousel -->
+                  <span class="method-name">homeCarousel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeFreshPics">
+                  </a> <!-- homeFreshPics -->
+                  <span class="method-name">homeFreshPics</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeOurChefs">
+                  </a> <!-- homeOurChefs -->
+                  <span class="method-name">homeOurChefs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeRecipeOftheDay">
+                  </a> <!-- homeRecipeOftheDay -->
+                  <span class="method-name">homeRecipeOftheDay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeTrendingOnLf">
+                  </a> <!-- homeTrendingOnLf -->
+                  <span class="method-name">homeTrendingOnLf</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="howTo">
+                  </a> <!-- howTo -->
+                  <span class="method-name">howTo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="howToCarousel">
+                  </a> <!-- howToCarousel -->
+                  <span class="method-name">howToCarousel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="howToKitchenHacks">
+                  </a> <!-- howToKitchenHacks -->
+                  <span class="method-name">howToKitchenHacks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="howToTipsandTricks">
+                  </a> <!-- howToTipsandTricks -->
+                  <span class="method-name">howToTipsandTricks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="peopleCarousel">
+                  </a> <!-- peopleCarousel -->
+                  <span class="method-name">peopleCarousel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="peopleChefHost">
+                  </a> <!-- peopleChefHost -->
+                  <span class="method-name">peopleChefHost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="peopleLanding">
+                  </a> <!-- peopleLanding -->
+                  <span class="method-name">peopleLanding</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="peopleScoops">
+                  </a> <!-- peopleScoops -->
+                  <span class="method-name">peopleScoops</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reTargetting">
+                  </a> <!-- reTargetting -->
+                  <span class="method-name">reTargetting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recipeCarousel">
+                  </a> <!-- recipeCarousel -->
+                  <span class="method-name">recipeCarousel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recipeCusineType">
+                  </a> <!-- recipeCusineType -->
+                  <span class="method-name">recipeCusineType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recipeDetail">
+                  </a> <!-- recipeDetail -->
+                  <span class="method-name">recipeDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recipeDetailComments">
+                  </a> <!-- recipeDetailComments -->
+                  <span class="method-name">recipeDetailComments</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recipeLanding1">
+                  </a> <!-- recipeLanding1 -->
+                  <span class="method-name">recipeLanding1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recipeOurChef">
+                  </a> <!-- recipeOurChef -->
+                  <span class="method-name">recipeOurChef</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recipeRecipeOftheDay">
+                  </a> <!-- recipeRecipeOftheDay -->
+                  <span class="method-name">recipeRecipeOftheDay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recipeSublinksRecipeOfTheDay">
+                  </a> <!-- recipeSublinksRecipeOfTheDay -->
+                  <span class="method-name">recipeSublinksRecipeOfTheDay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recirecipeSublinksCusineType">
+                  </a> <!-- recirecipeSublinksCusineType -->
+                  <span class="method-name">recirecipeSublinksCusineType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="recirecipeSublinksOurChef">
+                  </a> <!-- recirecipeSublinksOurChef -->
+                  <span class="method-name">recirecipeSublinksOurChef</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewBangalore">
+                  </a> <!-- reviewBangalore -->
+                  <span class="method-name">reviewBangalore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewCarousel">
+                  </a> <!-- reviewCarousel -->
+                  <span class="method-name">reviewCarousel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewDelhi">
+                  </a> <!-- reviewDelhi -->
+                  <span class="method-name">reviewDelhi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewLanding">
+                  </a> <!-- reviewLanding -->
+                  <span class="method-name">reviewLanding</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewMumbai">
+                  </a> <!-- reviewMumbai -->
+                  <span class="method-name">reviewMumbai</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewOther">
+                  </a> <!-- reviewOther -->
+                  <span class="method-name">reviewOther</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewPune">
+                  </a> <!-- reviewPune -->
+                  <span class="method-name">reviewPune</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewSubLinkBangalore">
+                  </a> <!-- reviewSubLinkBangalore -->
+                  <span class="method-name">reviewSubLinkBangalore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewSubLinkDelhi">
+                  </a> <!-- reviewSubLinkDelhi -->
+                  <span class="method-name">reviewSubLinkDelhi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewSubLinkMumbai">
+                  </a> <!-- reviewSubLinkMumbai -->
+                  <span class="method-name">reviewSubLinkMumbai</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewSubLinkOther">
+                  </a> <!-- reviewSubLinkOther -->
+                  <span class="method-name">reviewSubLinkOther</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewSubLinkPune">
+                  </a> <!-- reviewSubLinkPune -->
+                  <span class="method-name">reviewSubLinkPune</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showCarousel">
+                  </a> <!-- showCarousel -->
+                  <span class="method-name">showCarousel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showDetails">
+                  </a> <!-- showDetails -->
+                  <span class="method-name">showDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showLanding1">
+                  </a> <!-- showLanding1 -->
+                  <span class="method-name">showLanding1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showOnLf">
+                  </a> <!-- showOnLf -->
+                  <span class="method-name">showOnLf</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showOurHosts">
+                  </a> <!-- showOurHosts -->
+                  <span class="method-name">showOurHosts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showSubLinkChefHost">
+                  </a> <!-- showSubLinkChefHost -->
+                  <span class="method-name">showSubLinkChefHost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showSubLinkShowOnLF">
+                  </a> <!-- showSubLinkShowOnLF -->
+                  <span class="method-name">showSubLinkShowOnLF</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showTrendingOnLF">
+                  </a> <!-- showTrendingOnLF -->
+                  <span class="method-name">showTrendingOnLF</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showdetailAboutHost">
+                  </a> <!-- showdetailAboutHost -->
+                  <span class="method-name">showdetailAboutHost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showdetailArticleAboutShow">
+                  </a> <!-- showdetailArticleAboutShow -->
+                  <span class="method-name">showdetailArticleAboutShow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showdetailComments">
+                  </a> <!-- showdetailComments -->
+                  <span class="method-name">showdetailComments</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showdetailDescription">
+                  </a> <!-- showdetailDescription -->
+                  <span class="method-name">showdetailDescription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showdetailOurHosts">
+                  </a> <!-- showdetailOurHosts -->
+                  <span class="method-name">showdetailOurHosts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showdetailTitle">
+                  </a> <!-- showdetailTitle -->
+                  <span class="method-name">showdetailTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showdetail_All_Shows">
+                  </a> <!-- showdetail_All_Shows -->
+                  <span class="method-name">showdetail_All_Shows</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stayConnectedFacebook">
+                  </a> <!-- stayConnectedFacebook -->
+                  <span class="method-name">stayConnectedFacebook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stayConnectedInsta">
+                  </a> <!-- stayConnectedInsta -->
+                  <span class="method-name">stayConnectedInsta</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stayConnectedTwitter">
+                  </a> <!-- stayConnectedTwitter -->
+                  <span class="method-name">stayConnectedTwitter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyCarousel">
+                  </a> <!-- storyCarousel -->
+                  <span class="method-name">storyCarousel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyDetail">
+                  </a> <!-- storyDetail -->
+                  <span class="method-name">storyDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyDetailRelatedStories">
+                  </a> <!-- storyDetailRelatedStories -->
+                  <span class="method-name">storyDetailRelatedStories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyDetailTitle">
+                  </a> <!-- storyDetailTitle -->
+                  <span class="method-name">storyDetailTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyDetailsComments">
+                  </a> <!-- storyDetailsComments -->
+                  <span class="method-name">storyDetailsComments</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyDishup">
+                  </a> <!-- storyDishup -->
+                  <span class="method-name">storyDishup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyEntertainment">
+                  </a> <!-- storyEntertainment -->
+                  <span class="method-name">storyEntertainment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyFoodplusplus">
+                  </a> <!-- storyFoodplusplus -->
+                  <span class="method-name">storyFoodplusplus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyHealth">
+                  </a> <!-- storyHealth -->
+                  <span class="method-name">storyHealth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyLanding">
+                  </a> <!-- storyLanding -->
+                  <span class="method-name">storyLanding</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyPlaces">
+                  </a> <!-- storyPlaces -->
+                  <span class="method-name">storyPlaces</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="storyPopCulture">
+                  </a> <!-- storyPopCulture -->
+                  <span class="method-name">storyPopCulture</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="termsOfUse">
+                  </a> <!-- termsOfUse -->
+                  <span class="method-name">termsOfUse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/j5/z2g1p5_n2dqgtzf3jkkl2x3c0000gp/T/testng-eclipse-1903549088/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;regression.livingfoodz&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(90);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'facebookLogin')
+data.setCell(0, 2, 'regression.livingfoodz')
+data.setCell(0, 3, 16948);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'stayConnectedFacebook')
+data.setCell(1, 2, 'regression.livingfoodz')
+data.setCell(1, 3, 11500);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'StorySublinkPopCulture')
+data.setCell(2, 2, 'regression.livingfoodz')
+data.setCell(2, 3, 10129);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'stayConnectedInsta')
+data.setCell(3, 2, 'regression.livingfoodz')
+data.setCell(3, 3, 9261);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'search')
+data.setCell(4, 2, 'regression.livingfoodz')
+data.setCell(4, 3, 8711);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'showLanding1')
+data.setCell(5, 2, 'regression.livingfoodz')
+data.setCell(5, 3, 8224);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'recipeSublinksRecipeOfTheDay')
+data.setCell(6, 2, 'regression.livingfoodz')
+data.setCell(6, 3, 7944);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'accessWebsite')
+data.setCell(7, 2, 'regression.livingfoodz')
+data.setCell(7, 3, 7436);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'storyCarousel')
+data.setCell(8, 2, 'regression.livingfoodz')
+data.setCell(8, 3, 7361);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'recipeDetail')
+data.setCell(9, 2, 'regression.livingfoodz')
+data.setCell(9, 3, 7299);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'showDetails')
+data.setCell(10, 2, 'regression.livingfoodz')
+data.setCell(10, 3, 7001);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'PeopleSubLinkChefandHost')
+data.setCell(11, 2, 'regression.livingfoodz')
+data.setCell(11, 3, 6985);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'recipeCarousel')
+data.setCell(12, 2, 'regression.livingfoodz')
+data.setCell(12, 3, 6216);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'reviewSubLinkOther')
+data.setCell(13, 2, 'regression.livingfoodz')
+data.setCell(13, 3, 5943);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'BackfromStoryDetail')
+data.setCell(14, 2, 'regression.livingfoodz')
+data.setCell(14, 3, 5817);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'storyLanding')
+data.setCell(15, 2, 'regression.livingfoodz')
+data.setCell(15, 3, 5729);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'homeCarousel')
+data.setCell(16, 2, 'regression.livingfoodz')
+data.setCell(16, 3, 4690);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ChefProfile')
+data.setCell(17, 2, 'regression.livingfoodz')
+data.setCell(17, 3, 4648);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'recipeLanding1')
+data.setCell(18, 2, 'regression.livingfoodz')
+data.setCell(18, 3, 4615);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'StorySublinkHealth')
+data.setCell(19, 2, 'regression.livingfoodz')
+data.setCell(19, 3, 4523);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'StorySublinkDishUp')
+data.setCell(20, 2, 'regression.livingfoodz')
+data.setCell(20, 3, 4501);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'showSubLinkShowOnLF')
+data.setCell(21, 2, 'regression.livingfoodz')
+data.setCell(21, 3, 4115);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'reviewCarousel')
+data.setCell(22, 2, 'regression.livingfoodz')
+data.setCell(22, 3, 4026);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'termsOfUse')
+data.setCell(23, 2, 'regression.livingfoodz')
+data.setCell(23, 3, 3832);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'reviewSubLinkMumbai')
+data.setCell(24, 2, 'regression.livingfoodz')
+data.setCell(24, 3, 3553);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'howToCarousel')
+data.setCell(25, 2, 'regression.livingfoodz')
+data.setCell(25, 3, 3311);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'showCarousel')
+data.setCell(26, 2, 'regression.livingfoodz')
+data.setCell(26, 3, 3306);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'peopleLanding')
+data.setCell(27, 2, 'regression.livingfoodz')
+data.setCell(27, 3, 3237);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'homeFreshPics')
+data.setCell(28, 2, 'regression.livingfoodz')
+data.setCell(28, 3, 3189);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'HowToSubLinkKitchenHacks')
+data.setCell(29, 2, 'regression.livingfoodz')
+data.setCell(29, 3, 3103);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'HowToSubLinkTipsTricks')
+data.setCell(30, 2, 'regression.livingfoodz')
+data.setCell(30, 3, 3089);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'aboutLF')
+data.setCell(31, 2, 'regression.livingfoodz')
+data.setCell(31, 3, 3030);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'clickprofilelink')
+data.setCell(32, 2, 'regression.livingfoodz')
+data.setCell(32, 3, 2865);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'reviewSubLinkPune')
+data.setCell(33, 2, 'regression.livingfoodz')
+data.setCell(33, 3, 2840);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'peopleCarousel')
+data.setCell(34, 2, 'regression.livingfoodz')
+data.setCell(34, 3, 2795);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'reviewLanding')
+data.setCell(35, 2, 'regression.livingfoodz')
+data.setCell(35, 3, 2784);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'storyDetail')
+data.setCell(36, 2, 'regression.livingfoodz')
+data.setCell(36, 3, 2600);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'reviewSubLinkDelhi')
+data.setCell(37, 2, 'regression.livingfoodz')
+data.setCell(37, 3, 2591);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'recirecipeSublinksCusineType')
+data.setCell(38, 2, 'regression.livingfoodz')
+data.setCell(38, 3, 2497);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'StorySublinkFood')
+data.setCell(39, 2, 'regression.livingfoodz')
+data.setCell(39, 3, 2403);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'stayConnectedTwitter')
+data.setCell(40, 2, 'regression.livingfoodz')
+data.setCell(40, 3, 2274);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'StorySublinkPlace')
+data.setCell(41, 2, 'regression.livingfoodz')
+data.setCell(41, 3, 2181);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'recirecipeSublinksOurChef')
+data.setCell(42, 2, 'regression.livingfoodz')
+data.setCell(42, 3, 2106);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'StorySublinkEntertainment')
+data.setCell(43, 2, 'regression.livingfoodz')
+data.setCell(43, 3, 2082);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'homeTrendingOnLf')
+data.setCell(44, 2, 'regression.livingfoodz')
+data.setCell(44, 3, 2048);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'showdetailOurHosts')
+data.setCell(45, 2, 'regression.livingfoodz')
+data.setCell(45, 3, 2046);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'showSubLinkChefHost')
+data.setCell(46, 2, 'regression.livingfoodz')
+data.setCell(46, 3, 2032);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'reviewSubLinkBangalore')
+data.setCell(47, 2, 'regression.livingfoodz')
+data.setCell(47, 3, 2031);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'PeopleSubLinkScoop')
+data.setCell(48, 2, 'regression.livingfoodz')
+data.setCell(48, 3, 1988);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'howTo')
+data.setCell(49, 2, 'regression.livingfoodz')
+data.setCell(49, 3, 1715);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'storyDetailTitle')
+data.setCell(50, 2, 'regression.livingfoodz')
+data.setCell(50, 3, 1068);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'peopleScoops')
+data.setCell(51, 2, 'regression.livingfoodz')
+data.setCell(51, 3, 1048);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'storyDetailRelatedStories')
+data.setCell(52, 2, 'regression.livingfoodz')
+data.setCell(52, 3, 1037);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'storyHealth')
+data.setCell(53, 2, 'regression.livingfoodz')
+data.setCell(53, 3, 731);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'storyPlaces')
+data.setCell(54, 2, 'regression.livingfoodz')
+data.setCell(54, 3, 609);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'howToKitchenHacks')
+data.setCell(55, 2, 'regression.livingfoodz')
+data.setCell(55, 3, 519);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'reviewMumbai')
+data.setCell(56, 2, 'regression.livingfoodz')
+data.setCell(56, 3, 481);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'storyFoodplusplus')
+data.setCell(57, 2, 'regression.livingfoodz')
+data.setCell(57, 3, 399);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'storyEntertainment')
+data.setCell(58, 2, 'regression.livingfoodz')
+data.setCell(58, 3, 389);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'homeRecipeOftheDay')
+data.setCell(59, 2, 'regression.livingfoodz')
+data.setCell(59, 3, 388);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'reviewPune')
+data.setCell(60, 2, 'regression.livingfoodz')
+data.setCell(60, 3, 363);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'reviewOther')
+data.setCell(61, 2, 'regression.livingfoodz')
+data.setCell(61, 3, 312);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'reviewBangalore')
+data.setCell(62, 2, 'regression.livingfoodz')
+data.setCell(62, 3, 308);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'reviewDelhi')
+data.setCell(63, 2, 'regression.livingfoodz')
+data.setCell(63, 3, 295);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'recipeCusineType')
+data.setCell(64, 2, 'regression.livingfoodz')
+data.setCell(64, 3, 198);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'recipeRecipeOftheDay')
+data.setCell(65, 2, 'regression.livingfoodz')
+data.setCell(65, 3, 135);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'peopleChefHost')
+data.setCell(66, 2, 'regression.livingfoodz')
+data.setCell(66, 3, 132);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'storyPopCulture')
+data.setCell(67, 2, 'regression.livingfoodz')
+data.setCell(67, 3, 88);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'crazyEgg')
+data.setCell(68, 2, 'regression.livingfoodz')
+data.setCell(68, 3, 86);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'howToTipsandTricks')
+data.setCell(69, 2, 'regression.livingfoodz')
+data.setCell(69, 3, 86);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'showdetailDescription')
+data.setCell(70, 2, 'regression.livingfoodz')
+data.setCell(70, 3, 83);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'showdetailTitle')
+data.setCell(71, 2, 'regression.livingfoodz')
+data.setCell(71, 3, 74);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'recipeOurChef')
+data.setCell(72, 2, 'regression.livingfoodz')
+data.setCell(72, 3, 67);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'homeAllShows')
+data.setCell(73, 2, 'regression.livingfoodz')
+data.setCell(73, 3, 62);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'showdetail_All_Shows')
+data.setCell(74, 2, 'regression.livingfoodz')
+data.setCell(74, 3, 60);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'showTrendingOnLF')
+data.setCell(75, 2, 'regression.livingfoodz')
+data.setCell(75, 3, 59);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'showdetailArticleAboutShow')
+data.setCell(76, 2, 'regression.livingfoodz')
+data.setCell(76, 3, 58);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'showdetailAboutHost')
+data.setCell(77, 2, 'regression.livingfoodz')
+data.setCell(77, 3, 54);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'homeOurChefs')
+data.setCell(78, 2, 'regression.livingfoodz')
+data.setCell(78, 3, 52);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'reTargetting')
+data.setCell(79, 2, 'regression.livingfoodz')
+data.setCell(79, 3, 48);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'storyDishup')
+data.setCell(80, 2, 'regression.livingfoodz')
+data.setCell(80, 3, 48);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'showOurHosts')
+data.setCell(81, 2, 'regression.livingfoodz')
+data.setCell(81, 3, 47);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'chefProfileOurChefs')
+data.setCell(82, 2, 'regression.livingfoodz')
+data.setCell(82, 3, 45);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'faceBookCode')
+data.setCell(83, 2, 'regression.livingfoodz')
+data.setCell(83, 3, 43);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'showOnLf')
+data.setCell(84, 2, 'regression.livingfoodz')
+data.setCell(84, 3, 40);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'recipeDetailComments')
+data.setCell(85, 2, 'regression.livingfoodz')
+data.setCell(85, 3, 36);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'ChefProfileRecipeByChef')
+data.setCell(86, 2, 'regression.livingfoodz')
+data.setCell(86, 3, 36);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'storyDetailsComments')
+data.setCell(87, 2, 'regression.livingfoodz')
+data.setCell(87, 3, 11);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'ChefProfileFBComments')
+data.setCell(88, 2, 'regression.livingfoodz')
+data.setCell(88, 3, 10);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'showdetailComments')
+data.setCell(89, 2, 'regression.livingfoodz')
+data.setCell(89, 3, 10);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">15 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">regression.livingfoodz</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">awardsCategories</span>
+                <br/>
+                <span class="ignored-method-name">awardBuzz</span>
+                <br/>
+                <span class="ignored-method-name">recipeOnCardTitleRedirection</span>
+                <br/>
+                <span class="ignored-method-name">showSubLinkTrendingonLF</span>
+                <br/>
+                <span class="ignored-method-name">nextStory</span>
+                <br/>
+                <span class="ignored-method-name">UCG</span>
+                <br/>
+                <span class="ignored-method-name">recipeOnCardChefRedirection</span>
+                <br/>
+                <span class="ignored-method-name">recipeOnCardDecRedirection</span>
+                <br/>
+                <span class="ignored-method-name">awards2017Winners</span>
+                <br/>
+                <span class="ignored-method-name">awardsEnteratiner</span>
+                <br/>
+                <span class="ignored-method-name">awardsFoodInsta</span>
+                <br/>
+                <span class="ignored-method-name">awardsAbout</span>
+                <br/>
+                <span class="ignored-method-name">awards</span>
+                <br/>
+                <span class="ignored-method-name">awardsTicketsbookinglink</span>
+                <br/>
+                <span class="ignored-method-name">recipeOnCardTagRedirection</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">regression.livingfoodz</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">accessWebsite</span>
+                <span class="method-start">5619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">facebookLogin</span>
+                <span class="method-start">13056 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickprofilelink</span>
+                <span class="method-start">30006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homeFreshPics</span>
+                <span class="method-start">32872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homeRecipeOftheDay</span>
+                <span class="method-start">36062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homeOurChefs</span>
+                <span class="method-start">36453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homeTrendingOnLf</span>
+                <span class="method-start">36507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homeAllShows</span>
+                <span class="method-start">38556 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">recipeLanding1</span>
+                <span class="method-start">38619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">recipeRecipeOftheDay</span>
+                <span class="method-start">43235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">recipeOurChef</span>
+                <span class="method-start">43371 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">recipeCusineType</span>
+                <span class="method-start">43439 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">recipeDetail</span>
+                <span class="method-start">43638 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">recipeDetailComments</span>
+                <span class="method-start">50938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showLanding1</span>
+                <span class="method-start">50975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showOnLf</span>
+                <span class="method-start">59200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showOurHosts</span>
+                <span class="method-start">59241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showTrendingOnLF</span>
+                <span class="method-start">59289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">peopleLanding</span>
+                <span class="method-start">59349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">peopleChefHost</span>
+                <span class="method-start">62587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">peopleScoops</span>
+                <span class="method-start">62720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ChefProfile</span>
+                <span class="method-start">63769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ChefProfileRecipeByChef</span>
+                <span class="method-start">68418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ChefProfileFBComments</span>
+                <span class="method-start">68455 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">chefProfileOurChefs</span>
+                <span class="method-start">68466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyLanding</span>
+                <span class="method-start">68511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyDishup</span>
+                <span class="method-start">74241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyPopCulture</span>
+                <span class="method-start">74289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyPlaces</span>
+                <span class="method-start">74378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyEntertainment</span>
+                <span class="method-start">74987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyFoodplusplus</span>
+                <span class="method-start">75377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyHealth</span>
+                <span class="method-start">75777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewLanding</span>
+                <span class="method-start">76508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewMumbai</span>
+                <span class="method-start">79293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewDelhi</span>
+                <span class="method-start">79774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewBangalore</span>
+                <span class="method-start">80070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewPune</span>
+                <span class="method-start">80378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewOther</span>
+                <span class="method-start">80741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">howTo</span>
+                <span class="method-start">81054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">howToKitchenHacks</span>
+                <span class="method-start">82772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">howToTipsandTricks</span>
+                <span class="method-start">83292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showDetails</span>
+                <span class="method-start">83379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showdetailTitle</span>
+                <span class="method-start">90382 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showdetailDescription</span>
+                <span class="method-start">90457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showdetailComments</span>
+                <span class="method-start">90541 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showdetailAboutHost</span>
+                <span class="method-start">90552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showdetailArticleAboutShow</span>
+                <span class="method-start">90607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showdetailOurHosts</span>
+                <span class="method-start">90667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showdetail_All_Shows</span>
+                <span class="method-start">92714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyDetail</span>
+                <span class="method-start">92775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyDetailTitle</span>
+                <span class="method-start">95376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyDetailRelatedStories</span>
+                <span class="method-start">96445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyDetailsComments</span>
+                <span class="method-start">97483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">97495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BackfromStoryDetail</span>
+                <span class="method-start">106207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homeCarousel</span>
+                <span class="method-start">112025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">recipeCarousel</span>
+                <span class="method-start">116716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showCarousel</span>
+                <span class="method-start">122933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">peopleCarousel</span>
+                <span class="method-start">126239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">storyCarousel</span>
+                <span class="method-start">129035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewCarousel</span>
+                <span class="method-start">136397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">howToCarousel</span>
+                <span class="method-start">140424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">recipeSublinksRecipeOfTheDay</span>
+                <span class="method-start">143736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">recirecipeSublinksCusineType</span>
+                <span class="method-start">151682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">recirecipeSublinksOurChef</span>
+                <span class="method-start">154180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showSubLinkShowOnLF</span>
+                <span class="method-start">156287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showSubLinkChefHost</span>
+                <span class="method-start">160404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PeopleSubLinkChefandHost</span>
+                <span class="method-start">162437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PeopleSubLinkScoop</span>
+                <span class="method-start">169423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">StorySublinkDishUp</span>
+                <span class="method-start">171412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">StorySublinkPopCulture</span>
+                <span class="method-start">175914 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">StorySublinkPlace</span>
+                <span class="method-start">186043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">StorySublinkEntertainment</span>
+                <span class="method-start">188225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">StorySublinkFood</span>
+                <span class="method-start">190309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">StorySublinkHealth</span>
+                <span class="method-start">192713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewSubLinkMumbai</span>
+                <span class="method-start">197237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewSubLinkDelhi</span>
+                <span class="method-start">200791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewSubLinkBangalore</span>
+                <span class="method-start">203383 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewSubLinkPune</span>
+                <span class="method-start">205415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewSubLinkOther</span>
+                <span class="method-start">208256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HowToSubLinkKitchenHacks</span>
+                <span class="method-start">214200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HowToSubLinkTipsTricks</span>
+                <span class="method-start">217304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">aboutLF</span>
+                <span class="method-start">220394 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">termsOfUse</span>
+                <span class="method-start">223425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">stayConnectedTwitter</span>
+                <span class="method-start">227258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">stayConnectedInsta</span>
+                <span class="method-start">229533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">stayConnectedFacebook</span>
+                <span class="method-start">238795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reTargetting</span>
+                <span class="method-start">250296 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">faceBookCode</span>
+                <span class="method-start">250345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">crazyEgg</span>
+                <span class="method-start">250389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">250476 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
